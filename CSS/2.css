@@ -182,3 +182,56 @@
 								 
 							 
 							}
+							 
+							 .ft {
+									background-image:url('4.jpg');
+								    height:550px;
+									background-repeat:no-repeat;
+									opacity:0.9;
+							 }
+							 
+							.galary{
+									 position:relative;
+									border: 3px solid #ccc;
+									float: left;
+									width: 200px;
+									height:400px;
+									top:40px;
+									left:20px;			 
+									margin:15px;
+									background:white;
+									
+							}
+							
+							 
+							.galary:hover{
+								border:3px solid #777;
+								transform:scale(1.1);
+							}
+							
+							 
+							.galary img{
+							 width:200px;
+							 height:200px;
+							}
+							 
+							.galary h1{
+									color:#004d1b;
+									font-size:20px;
+							}
+							 
+							 div p {
+								padding:7px;
+								text-align:center;
+							 }
+							 
+							 
+							 div h1{
+							 color:white;
+							 font-size:40px;
+							 position:relative;
+							 top:30px;
+							 text-decoration:underline;
+							text-align:center;
+							 }
+							 
