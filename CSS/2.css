@@ -235,3 +235,129 @@
 							text-align:center;
 							 }
 							 
+							 	 
+							.logi{
+							
+							background-image:url('14.jpg');
+							 height:700px;
+							 background-repeat:no-repeat;
+							}
+							
+							input{
+								border:1px solid white;
+								border-radius:30px;
+								height:20px;
+								text-align:center;
+							}
+							select{
+								border:1px solid  white;
+								border-radius:30px;
+								height:20px;
+								text-align:center;
+							}
+							#submit{
+										background-color:#392613;
+										color:white;
+										width:150px;
+										height:30px;
+										opacity:0.8;
+							}
+							#submit:hover{
+								transform:scale(1.1);
+							}
+							input ["Text"]{
+									padding:20px;
+									text-align:center;
+							}
+							
+							legend{
+								font-size:50px;
+								color:white;
+								
+							}
+							.about{
+								height:1000px;
+							}
+							.about h1{
+								color:#004d1b;
+								font-size:30px;
+								text-decoration:none;
+								
+							}
+							.about hr{
+									color:orange;
+									width:1000px;
+									text-align:center;
+							}
+							.about fieldset{
+									width:800px;
+									position:relative;
+									 
+									left:180px;
+									text-align:center;
+									background:#f1f1f1;
+									border-radius:50px;
+									
+							}
+							.logi fieldset{
+									position:relative;
+									top:50px;
+									left:400px;
+									width:400px;
+									text-align:center;
+									background:#1a0d00;
+									color:white;
+									font-size:15px;
+									border-radius:50px;
+									text-decoration:bold;
+									font-size:20px;
+							}
+							
+							.g{
+								 	 
+							    color: #004d1b;
+							    opacity:0.8;
+								float:center;
+								position:relative;
+								top:5px;
+								
+							}
+							 
+							.g h6{
+								
+							 color: white; 
+							 font-size:15px;
+							 text-align:center;
+							 margin:10px;
+							 border:1px  solid #004d1b;
+							 width:200px;
+							 height:5px;
+							 border-radius:30px;
+							 padding:10px;
+							 background:#006624;
+							 
+							}
+							
+							.g  h6:hover{
+								transform:scale(1.1);
+							}
+							
+							footer{
+								background:black;
+								opacity:0.9;
+								color:white;
+								padding:1px;
+								z-index:3;
+								height:180px;
+							}
+							
+							#myBtn{
+							    background:black;
+								float :right;
+							    opacity:0.6;
+								color:white;
+								z-index:5;
+							}
+							
+							
+							 
