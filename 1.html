@@ -13,7 +13,7 @@
 		
 		<body>
 					<div  class="logi container-fluid"  id="log" >
-			<form autocomplete="on" >
+			<form autocomplete="on" name="booking" >
 							<fieldset><legend>UserBooking</legend>
 										Firstname : <input type="text" name="Firstname" id="Firstname"   placeholder="Firstname" ></br></br>
 										Lastname : <input type="text" name="Lastname" id="Lastname"   placeholder="Lastname" ></br></br>
@@ -54,11 +54,18 @@
 														    <option>Arrange  Bussiness Party </option>				 
 												</select> </br></br>
 										<input type="checkbox" name="accept"  id="accept" >I accept  all the information provide by me is correct.</br></br>
-										<input type="button" name="submit" id="submit" value="submit"></br></br>
+										 <input type="button" name="submit" id="submit" value="submit" onclick="myFunction(this)"></br></br>
 		
 		</fieldset>
 		</form>	</div><button id="myBtn"><a href="#top" style="color: white"><big>^</big></a></button>
-		
+		<script>
+			function myFunction(t)
+			{
+
+    				    alert('Booking is Successful!');
+						document.booking.reset();
+			}
+		</script>
 		
 		</body>
 <html> 
