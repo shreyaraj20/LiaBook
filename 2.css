@@ -152,3 +152,54 @@ section{
      float:center; 
      
  }
+
+.logi{
+							
+    background :rgb(156, 94, 94);
+     
+    }
+    
+    input{
+        border:1px solid white;
+        border-radius:30px;
+        height:20px;
+        text-align:center;
+    }
+    select{
+        border:1px solid  white;
+        border-radius:30px;
+        height:20px;
+        text-align:center;
+    }
+    #submit{
+                background-color:#392613;
+                color:white;
+                width:150px;
+                height:30px;
+                opacity:0.8;
+    }
+    #submit:hover{
+        transform:scale(1.1);
+    }
+    /* input["text"]{
+            padding:20px;
+            text-align:center;
+    } */
+    
+    legend{
+        font-size:30px;
+        font-weight: 600;
+        color:white;
+        
+    }
+    .logi fieldset{
+        margin: 5% 20%;
+        width: 70%;
+        text-align:center;
+        background:#2f1a04;
+        color:white;
+        border-radius:50px;
+        text-decoration:bold;
+        font-size:12px;
+}
+
