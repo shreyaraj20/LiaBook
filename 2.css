@@ -164,19 +164,22 @@ section{
         border-radius:30px;
         height:20px;
         text-align:center;
+	color:rgb(156, 94, 94);
     }
     select{
         border:1px solid  white;
         border-radius:30px;
         height:20px;
         text-align:center;
+	color:rgb(156, 94, 94);
     }
     #submit{
-                background-color:#392613;
+                background-color:#533e28;
                 color:white;
                 width:150px;
                 height:30px;
                 opacity:0.8;
+	    
     }
     #submit:hover{
         transform:scale(1.1);
