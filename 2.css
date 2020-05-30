@@ -1,366 +1,154 @@
-							.main {
-										position : relative;
-							}
 							 
-							.name{
-										position:absolute;
-										top:50px;
-										left:50px;		
-							}
-							.name h1{
-										color:white;
-										opacity:0.7;
-										letter-spacing:3px;
-										font-size:90px;
-										text-decoration:none;
-										  
-							}
-							 
-							a{
-							color:white;
-							text-decoration:none;
-							}
-							
-							.menu{
-									padding:5px;
-									margin:20;
-									position:absolute;
-									top:5px;
-									left:30px;
-									
-							}
-							
-							.menu a{
-									  
-									margin-left:5px;
-									color:white;
-									float:left;
-									width:150px;
-									height:40px;
-									background-color:black;
-									opacity:0.6;
-									padding-top:20px;
-									padding-left:75px;
-									font-size:20px;
-									
-							}
-							.dropdown button{
-									float-right;
-									background-color:black;
-									color:white;
-									position: relative;
-									width:200px;
-									height:40px;
-									top:10px;
-									left:80px;
-									opacity:0.5;
-									  font-size:20px;
-							}
-							.but{
-									float-right;
-									background-color:black;
-									color:white;
-									position:absolute;
-									width:200px;
-									height:40px;
-									top:20px;
-									right:30px;
-									opacity:0.6;
-									 border:none;
-									 font-size:20px;
-									
-							}
-							
-								.image{
-							 width:100%;
-							 height:700px;
-							}
+  .front{
+      background: url('1.jpg');
+      width: 100%;
+      height:80%;
+      background-size: cover;
+  }
+  .front h1{
+      color:rgb(233, 240, 241);
+       margin:15%;
+       font-size: 5rem;
+  }
+  .home h2{
+    color:rgb(51, 49, 49);
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top:10%;
+    font-weight: 700;
+}
+.home h3{
+    color:rgb(51, 49, 49);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left:5%;
+    font-weight: 700;
+}
+.ho{
+    text-align: center;
+     
+}
+.img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+     
+}
+section{
+    text-align: center;
+    margin-top:3%;
+}
+  @media (max-width: 500px) {
+    .front{
+      height:60%;
+      width:100%;
+    }
+  }
  
-							 
-							 h2 {
-										text-align:center;
-										color:black;
-										position:relative;
-										top:30px;
-										font-size:40px;
-							}
-							
-							 h3{
-										text-align:center;
-										color:black;
-										position:relative;
-										top:10px;
-							}
-							
-							hr{
-								align:center;
-								color:#004d1b;
-								width:200px;
-							}
-							
-							
-							.foot h3{
-								position:relative;
-								top:5px;
-								color:#004d1b;
-								font-size:20px;
-								
-							}
-							
-							.foot p{
-								position:relative;
-								top:5px;
-								color:#004d1b;
-								font-size:20px;
-							}
-							
-							.dropbtn{
-								background-color:black;
-								color:black;
-								padding:5px;
-								font-size:15px;
-								border:none;
-								cursor:pointer;
-								opacity:0.6;
-							}
-							
-							.dropdown{
-								position:relative;
-								display:inline-block;
-							}
-							
-							
-							.dropdown-content{
-								display:none;
-								position:absolute;
-								background-color:black;
-								opacity:0.6;
-								min-width:100px;
-								z-index:1;
-							}
-							
-							
-							.dropdown-content a{
- 								color:black;
-								padding:5px;
-								display:block;
-								color:white;
-								 
-							}
-							
-							
-							.dropdown:hover .dropdown-content{
-								display:block;
-							}
-							.dropdown-content a:hover{
-								background-color:black;
-								transform:scale(1.1);
-							}
-							
-							
-							.hom{
-									display:flex;
-							}
-							
-							.write{
-							 color:gray;
-							 position: relative;
-							 left:300px;
-							 width:400px;
-							 letter-spacing:1px;
-						    font-size:16px;
-							}
-							
-							
-							.hom img{
-								position:relative;
-								 
-								left:100px;
-								vertical-align:middle;
-								border:3px solid ;
-								color:#004d1b;
-								 
-							 
-							}
-							 
-							 .ft {
-									background-image:url('4.jpg');
-								    height:550px;
-									background-repeat:no-repeat;
-									opacity:0.9;
-							 }
-							 
-							.galary{
-									 position:relative;
-									border: 3px solid #ccc;
-									float: left;
-									width: 200px;
-									height:400px;
-									top:40px;
-									left:20px;			 
-									margin:15px;
-									background:white;
-									
-							}
-							
-							 
-							.galary:hover{
-								border:3px solid #777;
-								transform:scale(1.1);
-							}
-							
-							 
-							.galary img{
-							 width:200px;
-							 height:200px;
-							}
-							 
-							.galary h1{
-									color:#004d1b;
-									font-size:20px;
-							}
-							 
-							 div p {
-								padding:7px;
-								text-align:center;
-							 }
-							 
-							 
-							 div h1{
-							 color:white;
-							 font-size:40px;
-							 position:relative;
-							 top:30px;
-							 text-decoration:underline;
-							text-align:center;
-							 }
-							 
-							 
-							 	 
-							.logi{
-							
-							background-image:url('14.jpg');
-							 height:700px;
-							 background-repeat:no-repeat;
-							}
-							
-							input{
-								border:1px solid white;
-								border-radius:30px;
-								height:20px;
-								text-align:center;
-							}
-							select{
-								border:1px solid  white;
-								border-radius:30px;
-								height:20px;
-								text-align:center;
-							}
-							#submit{
-										background-color:#392613;
-										color:white;
-										width:150px;
-										height:30px;
-										opacity:0.8;
-							}
-							#submit:hover{
-								transform:scale(1.1);
-							}
-							input ["Text"]{
-									padding:20px;
-									text-align:center;
-							}
-							
-							legend{
-								font-size:50px;
-								color:white;
-								
-							}
-							
-							.about{
-								height:1000px;
-							}
-							
-							.about h1{
-								color:#004d1b;
-								font-size:30px;
-								text-decoration:none;
-								
-							}
-							.about hr{
-									color:orange;
-									width:1000px;
-									text-align:center;
-							}
-							.about fieldset{
-									width:800px;
-									position:relative;
-									 
-									left:180px;
-									text-align:center;
-									background:#f1f1f1;
-									border-radius:50px;
-									
-							}
-							.logi fieldset{
-									position:relative;
-									top:50px;
-									left:400px;
-									width:400px;
-									text-align:center;
-									background:#1a0d00;
-									color:white;
-									font-size:15px;
-									border-radius:50px;
-									text-decoration:bold;
-									font-size:20px;
-							}
-							
-							.g{
-								 	 
-							    color: #004d1b;
-							    opacity:0.8;
-								float:center;
-								position:relative;
-								top:5px;
-								
-							}
-							 
-							.g h6{
-								
-							 color: white; 
-							 font-size:15px;
-							 text-align:center;
-							 margin:10px;
-							 border:1px  solid #004d1b;
-							 width:200px;
-							 height:5px;
-							 border-radius:30px;
-							 padding:10px;
-							 background:#006624;
-							 
-							}
-							
-							.g  h6:hover{
-								transform:scale(1.1);
-							}
-							
-							footer{
-								background:black;
-								opacity:0.9;
-								color:white;
-								padding:1px;
-								z-index:3;
-								height:180px;
-							}
-							
-							#myBtn{
-							    background:black;
-								float :right;
-							    opacity:0.6;
-								color:white;
-								z-index:5;
-							}
-							
-							
-							 
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color:black;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  .feature{
+      background-color: rgb(32, 31, 32);
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  .feature h1 {
+    font-size:3.5rem;
+    color: rgb(187, 176, 176);
+    text-align: center;
+    margin:5%;
+  }
+   
+  .thumbnail h1{
+      font-size: 2rem;
+      color:rgb(32, 2, 2);
+  }
+  .thumbnail {
+        height:400px;
+  }
+  legend{
+    font-size:50px;
+    color:white;
+}
+
+.about{
+    height:auto;
+}
+
+.about h1{
+    color:#004d1b;
+    font-size:30px;
+    text-decoration:none;
+    position: relative;
+    top:10px;
+    
+}
+.about hr{
+        color:orange;
+        text-align:center;
+}
+.about fieldset{
+ 
+        text-align:center;
+        background:#f1f1f1;
+        border-radius:50px;
+        margin:10%;
+        padding:5%;
+}
+ footer h6{
+      
+     font-size:15px;
+     font-weight: 500;
+     color:white;
+     float:center; 
+     
+ }
