@@ -72,7 +72,7 @@ section{
     background-color: #555 !important;
   }
   .dropdown-menu li a {
-    color: #000 !important;
+    color: white !important;
   }
   .dropdown-menu li a:hover {
     background-color: red !important;
